@@ -1,10 +1,13 @@
 package Tests;
 
+import ObjectData.RequestObject.RequestAccount;
+import ObjectData.ResponseObject.ResponseAccountSuccess;
+import PropertyUtility.PropertyUtility;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.response.ResponseBody;
 import io.restassured.specification.RequestSpecification;
-import org.json.JSONObject;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class CreateAccountTest {
@@ -17,19 +20,20 @@ public class CreateAccountTest {
         requestSpecification.contentType("application/json");
 
         // Definim request-ul
-        JSONObject createUserBody = new JSONObject();
-        createUserBody.put("userName", "TestAutomation" + System.currentTimeMillis());
-        createUserBody.put("password", "134.!Password");
-
-        requestSpecification.body(createUserBody.toString());
+        PropertyUtility propertyUtility = new PropertyUtility("RequestData/createAccountData");
+        RequestAccount requestAccountBody = new RequestAccount(propertyUtility.getAllData());
+        requestSpecification.body(requestAccountBody);
 
         // Interactionam cu response-ul
         Response response = requestSpecification.post("Account/v1/User");
         System.out.println(response.getStatusCode());
         System.out.println(response.getStatusLine());
 
-        ResponseBody responseBody = response.getBody();
-        System.out.println(responseBody.asString());
+        // Validam response body-ul
+        ResponseAccountSuccess responseAccountBody = response.body().as(ResponseAccountSuccess.class);
+        System.out.println(responseAccountBody.getUserID());
+
+        Assert.assertEquals(responseAccountBody.getUsername(), requestAccountBody.getUserName());
     }
 
 }
