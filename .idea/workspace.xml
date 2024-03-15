@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b11ffc32-f4ff-4b32-8aa7-4f084d98d9a0" name="Changes" comment="Initialize Repository with POM.xml and First Test">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="b11ffc32-f4ff-4b32-8aa7-4f084d98d9a0" name="Changes" comment="Create Request and Response Objects for data manipulation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests/CreateAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/CreateAccountTest.java" afterDir="false" />
     </list>
@@ -28,6 +27,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -44,6 +46,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.CreateAccountTest (1).executor": "Run",
+    "TestNG.CreateAccountTest.executor": "Run",
     "TestNG.CreateAccountTest.testMethod.executor": "Run",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
@@ -53,6 +57,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propCompiler",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -60,8 +65,45 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\dmindru\OneDrive - ENDAVA\+ Daniel\Work Related\Trainings\2024 - Back-end Testing Learning Path\Projects\ApiFramework\src\test" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ObjectData.ResponseObject" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.CreateAccountTest (1)">
+    <configuration name="CreateAccountTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ApiFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.CreateAccountTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateAccountTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ApiFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.CreateAccountTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CreateAccountTest.testMethod" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ApiFramework" />
       <extension name="coverage">
@@ -82,7 +124,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CreateAccountTest (1)" />
         <item itemvalue="TestNG.CreateAccountTest.testMethod" />
+        <item itemvalue="TestNG.CreateAccountTest" />
       </list>
     </recent_temporary>
   </component>
@@ -103,7 +147,8 @@
       <updated>1709639924485</updated>
       <workItem from="1709639925649" duration="560000" />
       <workItem from="1709640542327" duration="412000" />
-      <workItem from="1709733817451" duration="4279000" />
+      <workItem from="1709733817451" duration="5829000" />
+      <workItem from="1710338374185" duration="5641000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize Repository with POM.xml and First Test">
       <option name="closed" value="true" />
@@ -121,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709640722381</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Create Request and Response Objects for data manipulation">
+      <option name="closed" value="true" />
+      <created>1709738476281</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709738476281</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +193,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initialize Repository with POM.xml and First Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initialize Repository with POM.xml and First Test" />
+    <MESSAGE value="Create Request and Response Objects for data manipulation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Request and Response Objects for data manipulation" />
   </component>
 </project>
