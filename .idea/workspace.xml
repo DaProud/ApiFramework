@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b11ffc32-f4ff-4b32-8aa7-4f084d98d9a0" name="Changes" comment="Create Request and Response Objects for data manipulation">
+    <list default="true" id="b11ffc32-f4ff-4b32-8aa7-4f084d98d9a0" name="Changes" comment="Add layers and services to organize structure">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Service/CommonApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Service/CommonApiService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Service/ServiceImplementation/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Service/ServiceImplementation/AccountServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests/CreateAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/CreateAccountTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,66 +42,51 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.CreateAccountTest (1).executor": "Run",
-    "TestNG.CreateAccountTest.executor": "Run",
-    "TestNG.CreateAccountTest.testMethod.executor": "Run",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propCompiler",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application._TEMP.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.CreateAccountTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CreateAccountTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CreateAccountTest.testMethod.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG._TEMP (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG._TEMP.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG._TEMP.testMethod.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\dmindru\OneDrive - ENDAVA\+ Daniel\Work Related\Trainings\2024 - Back-end Testing Learning Path\Projects\ApiFramework\src\test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Tests" />
+      <recent name="org.example" />
       <recent name="ObjectData.ResponseObject" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CreateAccountTest (1)">
-    <configuration name="CreateAccountTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CreateAccountTest.testMethod">
+    <configuration name="_TEMP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example._TEMP" />
       <module name="ApiFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tests.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.CreateAccountTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreateAccountTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ApiFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.CreateAccountTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -122,11 +109,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_TEMP (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ApiFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests._TEMP" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_TEMP" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ApiFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests._TEMP" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_TEMP.testMethod" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ApiFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests._TEMP" />
+      <option name="METHOD_NAME" value="testMethod" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CreateAccountTest (1)" />
         <item itemvalue="TestNG.CreateAccountTest.testMethod" />
-        <item itemvalue="TestNG.CreateAccountTest" />
+        <item itemvalue="TestNG._TEMP.testMethod" />
+        <item itemvalue="TestNG._TEMP (1)" />
+        <item itemvalue="TestNG._TEMP" />
+        <item itemvalue="Application._TEMP" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +189,10 @@
       <workItem from="1709639925649" duration="560000" />
       <workItem from="1709640542327" duration="412000" />
       <workItem from="1709733817451" duration="5829000" />
-      <workItem from="1710338374185" duration="5641000" />
+      <workItem from="1710338374185" duration="7888000" />
+      <workItem from="1710928203544" duration="8980000" />
+      <workItem from="1711124754907" duration="208000" />
+      <workItem from="1712076043434" duration="4270000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize Repository with POM.xml and First Test">
       <option name="closed" value="true" />
@@ -174,7 +218,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709738476281</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Refactor and Add more response objects">
+      <option name="closed" value="true" />
+      <created>1710494364521</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710494364521</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add layers and services to organize structure">
+      <option name="closed" value="true" />
+      <created>1710948829325</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710948829325</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +254,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initialize Repository with POM.xml and First Test" />
     <MESSAGE value="Create Request and Response Objects for data manipulation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Request and Response Objects for data manipulation" />
+    <MESSAGE value="Refactor and Add more response objects" />
+    <MESSAGE value="Add layers and services to organize structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add layers and services to organize structure" />
   </component>
 </project>
