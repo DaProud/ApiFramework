@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b11ffc32-f4ff-4b32-8aa7-4f084d98d9a0" name="Changes" comment="Add layers and services to organize structure">
+    <list default="true" id="b11ffc32-f4ff-4b32-8aa7-4f084d98d9a0" name="Changes" comment="Add layer 3 with Service Actions + implement missing methods in layer 2">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Actions/AccountActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Actions/AccountActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestClient/RestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestClient/RestClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Service/CommonApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Service/CommonApiService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Service/ServiceImplementation/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Service/ServiceImplementation/AccountServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/CreateAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/CreateAccountTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +71,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dmindru\OneDrive - ENDAVA\+ Daniel\Work Related\Trainings\2024 - Back-end Testing Learning Path\Projects\ApiFramework\src\test\resources" />
       <recent name="C:\Users\dmindru\OneDrive - ENDAVA\+ Daniel\Work Related\Trainings\2024 - Back-end Testing Learning Path\Projects\ApiFramework\src\test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -77,16 +80,20 @@
       <recent name="ObjectData.ResponseObject" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CreateAccountTest.testMethod">
-    <configuration name="_TEMP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example._TEMP" />
+  <component name="RunManager" selected="TestNG.CreateAccountTest">
+    <configuration name="CreateAccountTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ApiFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.CreateAccountTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -163,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CreateAccountTest" />
         <item itemvalue="TestNG.CreateAccountTest.testMethod" />
         <item itemvalue="TestNG._TEMP.testMethod" />
         <item itemvalue="TestNG._TEMP (1)" />
         <item itemvalue="TestNG._TEMP" />
-        <item itemvalue="Application._TEMP" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +199,9 @@
       <workItem from="1710338374185" duration="7888000" />
       <workItem from="1710928203544" duration="8980000" />
       <workItem from="1711124754907" duration="208000" />
-      <workItem from="1712076043434" duration="4270000" />
+      <workItem from="1712076043434" duration="7737000" />
+      <workItem from="1712753947531" duration="4706000" />
+      <workItem from="1712923604431" duration="3990000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize Repository with POM.xml and First Test">
       <option name="closed" value="true" />
@@ -234,7 +243,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710948829325</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add layer 3 with Service Actions + implement missing methods in layer 2">
+      <option name="closed" value="true" />
+      <created>1712081526539</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712081526539</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +273,7 @@
     <MESSAGE value="Create Request and Response Objects for data manipulation" />
     <MESSAGE value="Refactor and Add more response objects" />
     <MESSAGE value="Add layers and services to organize structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add layers and services to organize structure" />
+    <MESSAGE value="Add layer 3 with Service Actions + implement missing methods in layer 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add layer 3 with Service Actions + implement missing methods in layer 2" />
   </component>
 </project>
