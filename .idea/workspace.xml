@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b11ffc32-f4ff-4b32-8aa7-4f084d98d9a0" name="Changes" comment="Add layer 3 with Service Actions + implement missing methods in layer 2">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="b11ffc32-f4ff-4b32-8aa7-4f084d98d9a0" name="Changes" comment="Add logging and Configuration">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Actions/AccountActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Actions/AccountActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestClient/RestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestClient/RestClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Service/CommonApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Service/CommonApiService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/CreateAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/CreateAccountTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,31 +41,32 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application._TEMP.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.CreateAccountTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.CreateAccountTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.CreateAccountTest.testMethod.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG._TEMP (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG._TEMP.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG._TEMP.testMethod.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application._TEMP.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.CreateAccountTest (1).executor": "Run",
+    "TestNG.CreateAccountTest.executor": "Run",
+    "TestNG.CreateAccountTest.testMethod.executor": "Run",
+    "TestNG.Tests.executor": "Run",
+    "TestNG._TEMP (1).executor": "Run",
+    "TestNG._TEMP.executor": "Run",
+    "TestNG._TEMP.testMethod.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\dmindru\OneDrive - ENDAVA\+ Daniel\Work Related\Trainings\2024 - Back-end Testing Learning Path\Projects\ApiFramework\src\test\resources" />
@@ -80,7 +78,7 @@
       <recent name="ObjectData.ResponseObject" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CreateAccountTest">
+  <component name="RunManager" selected="TestNG.Tests">
     <configuration name="CreateAccountTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ApiFramework" />
       <extension name="coverage">
@@ -116,7 +114,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_TEMP (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Tests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ApiFramework" />
       <extension name="coverage">
         <pattern>
@@ -125,15 +123,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests._TEMP" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_TEMP" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="_TEMP (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ApiFramework" />
       <extension name="coverage">
         <pattern>
@@ -170,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Tests" />
         <item itemvalue="TestNG.CreateAccountTest" />
         <item itemvalue="TestNG.CreateAccountTest.testMethod" />
         <item itemvalue="TestNG._TEMP.testMethod" />
         <item itemvalue="TestNG._TEMP (1)" />
-        <item itemvalue="TestNG._TEMP" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +198,8 @@
       <workItem from="1711124754907" duration="208000" />
       <workItem from="1712076043434" duration="7737000" />
       <workItem from="1712753947531" duration="4706000" />
-      <workItem from="1712923604431" duration="3990000" />
+      <workItem from="1712923604431" duration="4656000" />
+      <workItem from="1713528156479" duration="4135000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize Repository with POM.xml and First Test">
       <option name="closed" value="true" />
@@ -251,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712081526539</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add logging and Configuration">
+      <option name="closed" value="true" />
+      <created>1712931992349</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712931992349</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +280,7 @@
     <MESSAGE value="Refactor and Add more response objects" />
     <MESSAGE value="Add layers and services to organize structure" />
     <MESSAGE value="Add layer 3 with Service Actions + implement missing methods in layer 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add layer 3 with Service Actions + implement missing methods in layer 2" />
+    <MESSAGE value="Add logging and Configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add logging and Configuration" />
   </component>
 </project>
