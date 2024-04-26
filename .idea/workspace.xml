@@ -4,9 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b11ffc32-f4ff-4b32-8aa7-4f084d98d9a0" name="Changes" comment="Add Reporting with Extent Reports and Hooks for Test Suite">
+    <list default="true" id="b11ffc32-f4ff-4b32-8aa7-4f084d98d9a0" name="Changes" comment="Add BookStore actions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Service/CommonApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Service/CommonApiService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ObjectData/BookObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ObjectData/BookObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ObjectData/ModelObject/BookObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ObjectData/ModelObject/BookObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ObjectData/RequestObject/RequestAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ObjectData/RequestObject/RequestAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ObjectData/RequestObject/RequestAccountBooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ObjectData/RequestObject/RequestAccountBooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ObjectData/ResponseObject/ResponseAccountGetFailed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ObjectData/ResponseObject/ResponseAccountGetFailed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ObjectData/ResponseObject/ResponseAccountGetSuccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ObjectData/ResponseObject/ResponseAccountGetSuccess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ObjectData/ResponseObject/ResponseAccountSuccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ObjectData/ResponseObject/ResponseAccountSuccess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ObjectData/ResponseObject/ResponseTokenSuccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ObjectData/ResponseObject/ResponseTokenSuccess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PropertyUtility/PropertyUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PropertyUtility/PropertyUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Service/ServiceImplementation/BookStoreServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Service/ServiceImplementation/BookStoreServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/xmlFile/GeneralXml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/xmlFile/GeneralXml.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +90,7 @@
       <recent name="ObjectData.ResponseObject" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.BooksAccountTest.testMethod">
+  <component name="RunManager" selected="TestNG.BooksAccountTest">
     <configuration name="ExtentReportTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_TEMP.ExtentReportTest" />
       <module name="ApiFramework" />
@@ -89,6 +100,23 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BooksAccountTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ApiFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.BooksAccountTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,24 +156,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateAccountTest.testMethod" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ApiFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.CreateAccountTest" />
-      <option name="METHOD_NAME" value="testMethod" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ApiFramework" />
       <extension name="coverage">
@@ -164,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.BooksAccountTest" />
         <item itemvalue="TestNG.BooksAccountTest.testMethod" />
         <item itemvalue="Application.ExtentReportTest" />
         <item itemvalue="TestNG.Tests" />
         <item itemvalue="TestNG.CreateAccountTest" />
-        <item itemvalue="TestNG.CreateAccountTest.testMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +208,7 @@
       <workItem from="1712753947531" duration="4706000" />
       <workItem from="1712923604431" duration="4656000" />
       <workItem from="1713528156479" duration="5576000" />
-      <workItem from="1713963684593" duration="3561000" />
+      <workItem from="1713963684593" duration="8333000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize Repository with POM.xml and First Test">
       <option name="closed" value="true" />
@@ -264,7 +274,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713536445843</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add BookStore actions">
+      <option name="closed" value="true" />
+      <created>1713967463571</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713967463571</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +307,8 @@
     <MESSAGE value="Add layer 3 with Service Actions + implement missing methods in layer 2" />
     <MESSAGE value="Add logging and Configuration" />
     <MESSAGE value="Add Reporting with Extent Reports and Hooks for Test Suite" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Reporting with Extent Reports and Hooks for Test Suite" />
+    <MESSAGE value="Add BookStore actions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add BookStore actions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

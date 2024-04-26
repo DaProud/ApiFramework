@@ -1,7 +1,9 @@
 package ObjectData;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.Getter;
 
+@Getter
 public class BookObject {
 
     @JsonProperty("isbn")
@@ -23,39 +25,4 @@ public class BookObject {
     @JsonProperty("website")
     private String website;
 
-    public String getIsbn() {
-        return isbn;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public String getSubTitle() {
-        return subTitle;
-    }
-
-    public String getAuthor() {
-        return author;
-    }
-
-    public String getPublishDate() {
-        return publishDate;
-    }
-
-    public String getPublisher() {
-        return publisher;
-    }
-
-    public Integer getPages() {
-        return pages;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public String getWebsite() {
-        return website;
-    }
 }
