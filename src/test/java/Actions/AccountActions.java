@@ -23,6 +23,7 @@ public class AccountActions {
         Assert.assertEquals(response.getStatusCode(), ResponseStatus.SC_CREATED);
 
         ResponseAccountSuccess responseAccountBody = response.body().as(ResponseAccountSuccess.class);
+        responseAccountBody.validateNotNullFields();
         Assert.assertEquals(responseAccountBody.getUsername(), requestAccount.getUserName());
         return responseAccountBody;
     }
@@ -31,6 +32,7 @@ public class AccountActions {
         Response response = accountServiceImpl.generateAccountToken(requestAccount);
         Assert.assertEquals(response.getStatusCode(), ResponseStatus.SC_OK);
         ResponseTokenSuccess responseTokenSuccess = response.body().as(ResponseTokenSuccess.class);
+        responseTokenSuccess.validateNotNullFields();
         Assert.assertEquals(responseTokenSuccess.getStatus(), "Success");
         Assert.assertEquals(responseTokenSuccess.getResult(), "User authorized successfully.");
         return responseTokenSuccess;
