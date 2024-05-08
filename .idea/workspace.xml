@@ -5,22 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b11ffc32-f4ff-4b32-8aa7-4f084d98d9a0" name="Changes" comment="Add Lombok">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ObjectData/RequestObject/modelObject/RequestBookObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ObjectData/ResponseObject/modelObject/ResponseBookObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Actions/AccountActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Actions/AccountActions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Actions/BookStoreActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Actions/BookStoreActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ObjectData/BookObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ObjectData/ModelObject/BookObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ObjectData/RequestObject/RequestAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ObjectData/RequestObject/RequestAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ObjectData/RequestObject/RequestAccountBooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ObjectData/RequestObject/RequestAccountBooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ObjectData/RequestObject/modelObject/RequestBookObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ObjectData/RequestObject/modelObject/RequestBookObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ObjectData/RequestPreparation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ObjectData/RequestObject/RequestPreparation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ObjectData/ResponseNotNull.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ObjectData/ResponseObject/ResponseNotNull.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ObjectData/ResponseObject/ResponseAccountBooksSuccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ObjectData/ResponseObject/ResponseAccountBooksSuccess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ObjectData/ResponseObject/ResponseAccountGetSuccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ObjectData/ResponseObject/ResponseAccountGetSuccess.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ObjectData/ResponseObject/ResponseAccountSuccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ObjectData/ResponseObject/ResponseAccountSuccess.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ObjectData/ResponseObject/ResponseTokenSuccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ObjectData/ResponseObject/ResponseTokenSuccess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Service/CommonApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Service/CommonApiService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ObjectData/ResponseObject/modelObject/ResponseBookObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ObjectData/ResponseObject/modelObject/ResponseBookObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Service/InterfaceService/BookStoreServiceInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Service/InterfaceService/BookStoreServiceInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Service/ServiceImplementation/BookStoreServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Service/ServiceImplementation/BookStoreServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests/BooksAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/BooksAccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/RequestData/booksAccountData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/RequestData/booksAccountData.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,56 +53,80 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.ExtentReportTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application._TEMP.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.BooksAccountTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.BooksAccountTest.testMethod.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.CreateAccountTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.CreateAccountTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.CreateAccountTest.testMethod.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Tests.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG._TEMP (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG._TEMP.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG._TEMP.testMethod.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.ExtentReportTest.executor": "Run",
+    "Application._TEMP.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.BooksAccountTest (1).executor": "Run",
+    "TestNG.BooksAccountTest (2).executor": "Run",
+    "TestNG.BooksAccountTest.executor": "Run",
+    "TestNG.BooksAccountTest.testMethod.executor": "Run",
+    "TestNG.CreateAccountTest (1).executor": "Run",
+    "TestNG.CreateAccountTest.executor": "Run",
+    "TestNG.CreateAccountTest.testMethod.executor": "Run",
+    "TestNG.Tests.executor": "Run",
+    "TestNG._TEMP (1).executor": "Run",
+    "TestNG._TEMP.executor": "Run",
+    "TestNG._TEMP.testMethod.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\dmindru\OneDrive - ENDAVA\+ Daniel\Work Related\Trainings\2024 - Back-end Testing Learning Path\Projects\ApiFramework\src\test\resources" />
       <recent name="C:\Users\dmindru\OneDrive - ENDAVA\+ Daniel\Work Related\Trainings\2024 - Back-end Testing Learning Path\Projects\ApiFramework\src\test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ObjectData.RequestObject" />
       <recent name="Tests" />
       <recent name="org.example" />
       <recent name="ObjectData.ResponseObject" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Tests">
-    <configuration name="ExtentReportTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_TEMP.ExtentReportTest" />
+  <component name="RunManager" selected="TestNG.BooksAccountTest.testMethod">
+    <configuration name="BooksAccountTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ApiFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_TEMP.*" />
+          <option name="PATTERN" value="Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.BooksAccountTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BooksAccountTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ApiFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.BooksAccountTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -143,23 +166,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateAccountTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ApiFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.CreateAccountTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ApiFramework" />
       <extension name="coverage">
@@ -178,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.BooksAccountTest.testMethod" />
+        <item itemvalue="TestNG.BooksAccountTest (2)" />
+        <item itemvalue="TestNG.BooksAccountTest (1)" />
         <item itemvalue="TestNG.Tests" />
         <item itemvalue="TestNG.BooksAccountTest" />
-        <item itemvalue="TestNG.BooksAccountTest.testMethod" />
-        <item itemvalue="Application.ExtentReportTest" />
-        <item itemvalue="TestNG.CreateAccountTest" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +220,7 @@
       <workItem from="1713528156479" duration="5576000" />
       <workItem from="1713963684593" duration="13771000" />
       <workItem from="1715010672684" duration="4882000" />
-      <workItem from="1715015592447" duration="717000" />
+      <workItem from="1715015592447" duration="6217000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize Repository with POM.xml and First Test">
       <option name="closed" value="true" />
@@ -324,16 +330,5 @@
     <MESSAGE value="Add BookStore actions" />
     <MESSAGE value="Add Lombok" />
     <option name="LAST_COMMIT_MESSAGE" value="Add Lombok" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Tests/BooksAccountTest.java</url>
-          <line>73</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

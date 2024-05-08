@@ -4,6 +4,7 @@ import Actions.AccountActions;
 import Actions.BookStoreActions;
 import ObjectData.RequestObject.RequestAccount;
 import ObjectData.RequestObject.RequestAccountBooks;
+import ObjectData.RequestObject.RequestAccountBook;
 import ObjectData.ResponseObject.ResponseAccountSuccess;
 import ObjectData.ResponseObject.ResponseTokenSuccess;
 import PropertyUtility.PropertyUtility;
@@ -22,6 +23,7 @@ public class BooksAccountTest extends Hooks {
     public AccountActions accountActions;
     public BookStoreActions bookStoreActions;
     public RequestAccountBooks requestAccountBooks;
+    public RequestAccountBook requestAccountBook;
 
     @Test
     public void testMethod() {
@@ -43,6 +45,34 @@ public class BooksAccountTest extends Hooks {
         System.out.println("Step 5: Get new account with books");
         getSpecificAccount();
         ExtentUtility.attachReportLog(ReportStep.PASS_STEP, "The user validates the presence of new account with success");
+
+        System.out.println("Step 6: Update specific book from account");
+        updateSpecificBook();
+        ExtentUtility.attachReportLog(ReportStep.PASS_STEP, "The user modifies an existing book with success");
+
+        System.out.println("Step 7: Delete specific book from account");
+        deleteSpecificBook();
+        ExtentUtility.attachReportLog(ReportStep.PASS_STEP, "The user deletes an existing book with success");
+
+        System.out.println("Step 8: Get new account with books");
+        getSpecificAccount();
+        ExtentUtility.attachReportLog(ReportStep.PASS_STEP, "The user validates the presence of new account with success");
+
+        System.out.println("Step 9: Delete account books");
+        deleteAccountBooks();
+        ExtentUtility.attachReportLog(ReportStep.PASS_STEP, "The user deletes all the books from account with success");
+
+        System.out.println("Step 10: Get new account with books");
+        getSpecificAccount();
+        ExtentUtility.attachReportLog(ReportStep.PASS_STEP, "The user validates the presence of new account with success");
+
+        System.out.println("Step 11: Delete new account");
+        deleteSpecificAccount();
+        ExtentUtility.attachReportLog(ReportStep.PASS_STEP, "The user deletes the new account with success");
+
+        System.out.println("Step 12: Re-check deleted account");
+        getSpecificAccount();
+        ExtentUtility.attachReportLog(ReportStep.PASS_STEP, "The user validates the presence of deleted account with success");
     }
 
 
@@ -61,6 +91,28 @@ public class BooksAccountTest extends Hooks {
 
     public void getSpecificAccount() {
         accountActions.getSpecificAccount(token, userId, requestAccountBody);
+    }
+
+    public void updateSpecificBook(){
+        PropertyUtility propertyUtility = new PropertyUtility("RequestData/booksAccountData");
+        HashMap<String, String> testData = propertyUtility.getAllData();
+
+        String expectedBook = testData.get("expectedIsbn");
+        String actualBook = testData.get("actualIsbn");
+
+        testData.put("userId", userId);
+        testData.put("isbn",expectedBook);
+        requestAccountBook = new RequestAccountBook(testData);
+
+        bookStoreActions.updateSpecificBookFromAccount(token, requestAccountBook,actualBook);
+    }
+
+    public void deleteSpecificBook(){
+        bookStoreActions.deleteSpecificBookFromAccount(token, requestAccountBook);
+    }
+
+    public void deleteAccountBooks(){
+        bookStoreActions.deleteBooksFromAccount(token, userId);
     }
 
     public void deleteSpecificAccount() {
