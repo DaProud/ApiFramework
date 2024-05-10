@@ -6,20 +6,36 @@
   <component name="ChangeListManager">
     <list default="true" id="b11ffc32-f4ff-4b32-8aa7-4f084d98d9a0" name="Changes" comment="Add Lombok">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Actions/BookStoreActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Actions/BookStoreActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ObjectData/RequestObject/RequestAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ObjectData/RequestObject/RequestAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ObjectData/RequestObject/RequestAccountBooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ObjectData/RequestObject/RequestAccountBooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ObjectData/RequestObject/modelObject/RequestBookObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ObjectData/RequestObject/modelObject/RequestBookObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ObjectData/RequestPreparation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ObjectData/RequestObject/RequestPreparation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ObjectData/ResponseNotNull.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ObjectData/ResponseObject/ResponseNotNull.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ObjectData/ResponseObject/ResponseAccountBooksSuccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ObjectData/ResponseObject/ResponseAccountBooksSuccess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ObjectData/ResponseObject/ResponseAccountSuccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ObjectData/ResponseObject/ResponseAccountSuccess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ObjectData/ResponseObject/ResponseTokenSuccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ObjectData/ResponseObject/ResponseTokenSuccess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ObjectData/ResponseObject/modelObject/ResponseBookObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ObjectData/ResponseObject/modelObject/ResponseBookObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Service/InterfaceService/BookStoreServiceInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Service/InterfaceService/BookStoreServiceInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Service/ServiceImplementation/BookStoreServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Service/ServiceImplementation/BookStoreServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/BooksAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/BooksAccountTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/RequestData/booksAccountData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/RequestData/booksAccountData.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Actions/AccountActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/actions/AccountActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Actions/BookStoreActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/actions/BookStoreActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ObjectData/RequestObject/RequestAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objectData/requestObject/RequestAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ObjectData/RequestObject/RequestAccountBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objectData/requestObject/RequestAccountBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ObjectData/RequestObject/RequestAccountBooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objectData/requestObject/RequestAccountBooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ObjectData/RequestObject/RequestPreparation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objectData/requestObject/RequestPreparation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ObjectData/RequestObject/modelObject/RequestBookObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objectData/requestObject/modelObject/RequestBookObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ObjectData/ResponseObject/ResponseAccountBooksSuccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objectData/responseObject/ResponseAccountBooksSuccess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ObjectData/ResponseObject/ResponseAccountGetFailed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objectData/responseObject/ResponseAccountGetFailed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ObjectData/ResponseObject/ResponseAccountGetSuccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objectData/responseObject/ResponseAccountGetSuccess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ObjectData/ResponseObject/ResponseAccountSuccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objectData/responseObject/ResponseAccountSuccess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ObjectData/ResponseObject/ResponseNotNull.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objectData/responseObject/ResponseNotNull.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ObjectData/ResponseObject/ResponseTokenSuccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objectData/responseObject/ResponseTokenSuccess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ObjectData/ResponseObject/modelObject/ResponseBookObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objectData/responseObject/modelObject/ResponseBookObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PropertyUtility/PropertyUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/propertyUtility/PropertyUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestClient/RequestType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restClient/RequestType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestClient/ResponseStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restClient/ResponseStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestClient/RestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restClient/RestClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Service/ApiService/AccountApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/apiService/AccountApiService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Service/ApiService/BookstoreApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/apiService/BookstoreApiService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Service/CommonApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/CommonApiService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Service/InterfaceService/AccountServiceInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/interfaceService/AccountServiceInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Service/InterfaceService/BookStoreServiceInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/interfaceService/BookStoreServiceInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Service/ServiceHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/ServiceHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Service/ServiceImplementation/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/serviceImplementation/AccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Service/ServiceImplementation/BookStoreServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/serviceImplementation/BookStoreServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/BooksAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BooksAccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/CreateAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CreateAccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/_TEMP/ExtentReportTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hooks/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hooks/Hooks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +45,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -96,34 +112,17 @@
       <recent name="ObjectData.ResponseObject" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.BooksAccountTest.testMethod">
+  <component name="RunManager" selected="TestNG.BooksAccountTest (1)">
     <configuration name="BooksAccountTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ApiFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tests.*" />
+          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.BooksAccountTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BooksAccountTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ApiFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.BooksAccountTest" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.BooksAccountTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -135,12 +134,29 @@
       <module name="ApiFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tests.*" />
+          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.BooksAccountTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.BooksAccountTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BooksAccountTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ApiFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.BooksAccountTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -152,12 +168,12 @@
       <module name="ApiFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tests.*" />
+          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.BooksAccountTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.BooksAccountTest" />
       <option name="METHOD_NAME" value="testMethod" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -166,15 +182,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateAccountTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ApiFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tests.*" />
+          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CreateAccountTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ApiFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
       <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
@@ -184,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.BooksAccountTest (1)" />
+        <item itemvalue="TestNG.CreateAccountTest" />
         <item itemvalue="TestNG.BooksAccountTest.testMethod" />
         <item itemvalue="TestNG.BooksAccountTest (2)" />
         <item itemvalue="TestNG.BooksAccountTest (1)" />
-        <item itemvalue="TestNG.Tests" />
-        <item itemvalue="TestNG.BooksAccountTest" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +253,7 @@
       <workItem from="1713528156479" duration="5576000" />
       <workItem from="1713963684593" duration="13771000" />
       <workItem from="1715010672684" duration="4882000" />
-      <workItem from="1715015592447" duration="6217000" />
+      <workItem from="1715015592447" duration="10691000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize Repository with POM.xml and First Test">
       <option name="closed" value="true" />
